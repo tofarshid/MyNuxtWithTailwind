@@ -26,11 +26,16 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     // https://github.com/nuxt-community/router-module
     '@nuxtjs/router',
+
   ],
+  eslint: {
+    fix: true
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
