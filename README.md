@@ -1,1 +1,2 @@
 # MyNuxtWithTailwind
+test
