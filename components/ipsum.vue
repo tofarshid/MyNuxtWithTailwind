@@ -1,9 +1,6 @@
 <template>
-  <v-app>
-    <div>
-      <v-alert border="top" color="red lighten-2" dark>
-        I'm an alert with a top border and red color
-      </v-alert>
-    </div>
-  </v-app>
+  <small
+    >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry</small
+  >
 </template>
