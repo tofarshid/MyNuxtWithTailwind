@@ -1,8 +1,10 @@
 <template>
   <div class="container mx-auto pt-6">
     <h1>Components</h1>
+
+    <Main />
     <!-- GRID -->
-    <div class="grid grid-cols-3 gap-4">
+    <div class="grid grid-cols-3 gap-4 mt-4">
       <div class="h-24 bg-gray-100 border border-gray-300 shadow p-1">
         <ipsum />
       </div>
@@ -22,10 +24,12 @@
 </template>
 
 <script>
-import Ipsum from '../components/ipsum.vue'
+import Ipsum from '../components/ipsum'
+import Main from '../components/main'
 export default {
   components: {
     Ipsum,
+    Main,
   },
 }
 </script>

@@ -27,7 +27,6 @@ export default {}
 <style lang="postcss">
 h3 {
   font-size: 1.5em;
-  text-transform: uppercase;
 }
 .subheading {
   font-size: 0.5em;
