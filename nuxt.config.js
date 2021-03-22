@@ -17,7 +17,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [ ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -26,12 +26,12 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    
+
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     // https://github.com/nuxt-community/router-module
     '@nuxtjs/router',
-
+    
   ],
   eslint: {
     fix: true
